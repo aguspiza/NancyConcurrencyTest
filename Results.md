@@ -1,6 +1,7 @@
 # Result from ab tests:
 
 ## Nancy 2.0
+```
 ab -n 10 -c 10 -C "somecookie=rawr" http://localhost:3333/async
 This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -44,10 +45,11 @@ Percentage of the requests served within a certain time (ms)
   98%  50179
   99%  50179
  100%  50179 (longest request)
-
+```
 
 
 ## Nancy 1.4
+```
 ab -n 10 -c 10 -C "somecookie=rawr" http://localhost:3333/async
 This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -91,3 +93,4 @@ Percentage of the requests served within a certain time (ms)
   98%   5010
   99%   5010
  100%   5010 (longest request)
+```
