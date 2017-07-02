@@ -1,6 +1,6 @@
 # Result from ab tests:
 
-## Nancy 2.0
+## Nancy 2.0 (clinteastwood)
 ```
 ab -n 10 -c 10 -C "somecookie=rawr" http://localhost:3333/async
 This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
